@@ -1,3 +1,4 @@
-# CME Henry Hub Natural Gas Settlements
+# Quantitative Research - Natural Gas Price Modeling
 
-Fetches Henry Hub Natural Gas (NYMEX) futures settlement data from CME Group’s public web service.
+This project analyzes monthly end-of-month natural gas prices from October 2020 to September 2024 to support the pricing of commodity storage contracts. The data is cleaned and transformed into a continuous price curve to estimate prices for any historical date and to extrapolate prices one year into the future.
+Seasonal patterns and trends in natural gas prices are explored through visualization and simple statistical modeling. The final output is a pricing function that takes a date as input and returns an estimated natural gas price, implemented in Python using standard data analysis tools.
